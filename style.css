@@ -2,7 +2,7 @@ body {
   text-align: center;
   margin: 0;
   color: #333;
-  font-family: Georgia, sans-serif;
+  font-family: Georgia, serif;
 }
 
 #logo {
@@ -21,12 +21,6 @@ h1 {
   margin: auto;
 }
 
-.content-image {
-  width: 50%;
-  border-radius: 10px;
-  box-shadow: 4px 4px 8px 0px rgba(34, 27, 27, 0.2);
-}
-
 #author {
   display: block;
   color: rgba(0, 0, 0, 0.4);
@@ -35,13 +29,13 @@ h1 {
 }
 
 #featured {
-  border-left: 1px solid #ffd977;
+  border-left: 1px solid #fcd470;
   padding-left: 1rem;
   margin-top: 2rem;
 }
 
 #featured span {
-  color: #b5460f;
+  color: #c44c11;
   display: block;
 }
 
@@ -63,6 +57,11 @@ h2 {
   font-weight: 100;
 }
 
+.section-header {
+  border-bottom: 1px solid rgb(188, 244, 244);
+  margin-bottom: 2rem;
+}
+
 ul {
   margin-bottom: 2rem;
 }
@@ -72,19 +71,14 @@ li {
 }
 
 nav {
-  background-color: #fefbf1;
+  background-color: #f3edd9;
   padding: 1rem 0;
-  border-top: 1px solid #ffd977;
-  color: #004d4d;
-  font-size: 0.9rem;
+  border-top: 1px solid #fad77d;
+  color: #025555;
+  font-size: 0.8rem;
   margin-bottom: 4rem;
 }
 
 nav span span {
   font-weight: 800;
-}
-
-.section-header {
-  border-bottom: 1px solid rgb(197, 243, 243);
-  margin-bottom: 2rem;
 }
